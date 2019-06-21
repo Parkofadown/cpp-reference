@@ -2,8 +2,14 @@
 #include <vector>
 using namespace std;
 
+vector <char> vowels (5);
 vector <char> vowels {'a','e','i','o','u'} ;
-
 vector <int> test_scores (10);
 
 vector <double> hi_temperatures (365,80.0)
+
+
+//Accessing Inside Vectors
+
+//vector_name.at(vector index number)
+//vector_name.push_back(adds new at end of vector)
