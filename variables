@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int a = 1; // Will not throw error if type conversion is done to a by outside entity
+int b {2}; // Will throw error if type conversion is done to b by outside entity
+
+float c = 3.14;
+float d {43.24};
+
+return 0;
+}
