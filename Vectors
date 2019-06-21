@@ -1,0 +1,9 @@
+//Vectors 
+#include <vector>
+using namespace std;
+
+vector <char> vowels {'a','e','i','o','u'} ;
+
+vector <int> test_scores (10);
+
+vector <double> hi_temperatures (365,80.0)
