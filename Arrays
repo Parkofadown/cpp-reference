@@ -9,4 +9,4 @@ double hi_temperatures [days_in_year] {0};
 
 int another_array [] {1,2,3,4,5};
 
-int movie_rating [3] [4];
+int movie_rating [3][4];
